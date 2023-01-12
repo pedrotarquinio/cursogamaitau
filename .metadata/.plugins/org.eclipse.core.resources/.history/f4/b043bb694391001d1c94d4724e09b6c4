@@ -1,0 +1,17 @@
+
+public class ModeloCarroVenda {
+
+	public static void main(String[] args) {
+		String carro = "Tiggo ";
+		int valor = 180000;
+		int entrada = 100000;
+		int dif = valor - entrada;
+		
+		System.out.println("O valor do carro " + carro + "é " + "R$" + valor);
+		System.out.println("O valor da entrada é: " + entrada);
+		System.out.println("O valor restante para parcelar " + dif);
+		
+
+	}
+
+}

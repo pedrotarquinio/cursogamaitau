@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class CalcularNotas {
+
+	public static void main(String[] args) {
+		String[] nome = {"Pedro", "Bia", "Davi"};
+		double[] nota1 = {4.5,5,6};
+		double[] nota2 = {5,5.3,7.2};
+		float media;
+		
+		for (int i = 0; i<nome.length; i++ ) {
+			media = (float) ((nota1[i]+ nota2[i])/2);
+			System.out.println("O aluno " + nome[i] + 
+					" tem, a primeira nota " +nota1[i]+ 
+					" e a segunda nota " +nota2[i]+ 
+					" e a sua media é: " +media);
+		}
+		
+		
+		
+		
+
+	}
+
+}

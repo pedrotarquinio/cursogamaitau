@@ -1,0 +1,14 @@
+
+public class TabuadaDe1A9 {
+
+	public static void main(String[] args) {
+		for (int I = 1; I <= 9; I++){ 
+			System.out.println("\nTabuada do "+I); 
+			for (int N = 1; N <= 10; N++){ 
+				System.out.print(I+"\n "+N+" = "+I*N); 
+			}
+		}
+
+	}
+
+}

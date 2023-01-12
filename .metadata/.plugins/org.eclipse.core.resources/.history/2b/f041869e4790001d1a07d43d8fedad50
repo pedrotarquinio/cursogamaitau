@@ -1,0 +1,13 @@
+
+public class ExecutarConversor {
+
+	public static void main(String[] args) {
+		float f;
+		double c = 32.5;
+		f = (float) ((c *1.8) + 32);
+		 System.out.println(
+		            " value of temperature in fahrenheit:"
+		            + f);
+	}
+
+}

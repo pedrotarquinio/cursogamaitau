@@ -1,0 +1,13 @@
+
+public class ModeloCarroVenda {
+
+	public static void main(String[] args) {
+		String carro = "Tiggo";
+		int valor = 180000;
+		
+		System.out.println(carro + valor);
+		
+
+	}
+
+}

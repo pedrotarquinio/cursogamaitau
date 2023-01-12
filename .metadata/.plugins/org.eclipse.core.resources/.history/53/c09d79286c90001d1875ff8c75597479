@@ -1,0 +1,18 @@
+
+public class ExecutarMatriz {
+
+	public static void main(String[] args) {
+		//Criando variável matriz
+		String[]carros = {"Peu", "Bia", "Davi"};
+		
+		int[] i = {42,34,11};
+		
+		System.out.println(i);
+		
+		//incrementando a varável
+
+	
+			
+		}
+	}
+}

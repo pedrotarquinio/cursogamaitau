@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class InteracaoTeclado {
+
+	public static void main(String[] args) {
+		// Permite colher informações do teclado
+		Scanner teclado = new Scanner(System.in);
+		
+		//Criando variável
+		String nome;
+		System.out.println("Digite o o seu nome: ");
+		int anoAtual;
+		System.out.println("Digite o ano atual: ");
+		int anoNascimento;
+		System.out.println("Digite o ano do seu nascimento: ");
+		int idade;		
+		
+		
+		//Vinculando o teclado com a nossa variável
+		nome = teclado.next();
+		anoAtual = teclado.nextInt();
+		anoNascimento = teclado.nextInt();
+		
+		idade = anoAtual - anoNascimento;
+		
+		//Mostrar o nome em uma frase
+		System.out.println("Olá " + nome + "e sua idade é: " + idade + " anos");
+		System.out.println("");
+	}
+
+}

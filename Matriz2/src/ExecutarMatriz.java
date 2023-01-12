@@ -1,0 +1,22 @@
+
+public class ExecutarMatriz {
+
+	public static void main(String[] args) {
+		//Criando variável matriz
+		String[]nome = {"Peu", "Bia", "Davi"};
+		
+		int[] idade = {42,34,11};
+		
+		//System.out.println("Seu nome é " + nome[0] + " e você tem " +idade[0] + " anos");
+		
+		for (int i=0; i<nome.length; i++ ) {
+			System.out.println("Seu nome é " + nome[i] + " e você tem " +idade[i] + " anos");
+		}
+		
+		//incrementando a varável
+
+	
+			
+		
+	}
+}

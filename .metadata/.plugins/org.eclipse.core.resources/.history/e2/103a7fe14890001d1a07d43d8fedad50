@@ -1,0 +1,12 @@
+
+public class ExecutarConversor {
+
+	public static void main(String[] args) {
+		double f, c = 32.5;		
+		f = ((c *1.8) + 32);
+		 System.out.println(
+		            " A temperatura em F:"
+		            + f);
+	}
+
+}

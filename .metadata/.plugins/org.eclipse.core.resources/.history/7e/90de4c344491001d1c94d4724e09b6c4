@@ -1,0 +1,23 @@
+
+public class ModeloCarroVenda {
+
+	public static void main(String[] args) {
+		String carro = "Tiggo ";
+		int valor = 180000;
+		int entrada = 100000;
+		int dif = valor - entrada;
+		int parc24 = dif/24;
+		int parc48 = dif/48;
+		int parc72 = dif/72;
+		
+		System.out.println("O valor do carro " + carro + "é " + "R$ " + valor);
+		System.out.println("O valor da entrada é R$ " + entrada);
+		System.out.println("O valor restante para parcelar R$" + dif);
+		System.out.println("O valor em 24 parcelas R$" + parc24);
+		System.out.println("O valor em 48 parcelas R$" + parc48);
+		System.out.println("O valor em 72 parcelas R$" + parc72);
+		
+
+	}
+
+}
